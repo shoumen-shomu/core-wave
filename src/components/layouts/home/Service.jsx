@@ -9,7 +9,7 @@ const Service = () => {
   return (
     <>
       <section>
-        <div class="py-17.5 bg-[#EEFFF9] rounded-tl-[500px]">
+        <div class="py-17.5 bg-[#EEFFF9] rounded-tl-[500px] rounded-br-[500px]">
           <Container>
             <div className="flex items-center gap-[113px]">
               <div className="flex gap-10">

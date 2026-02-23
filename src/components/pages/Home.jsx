@@ -1,10 +1,12 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+
+import Banner from '../layouts/home/Banner'
 
 const Home = () => {
   return (
-    <div>
-    </div>
+    <>
+    <Banner/>
+    </>
   )
 }
 

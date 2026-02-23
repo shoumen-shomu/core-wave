@@ -8,30 +8,31 @@ import Button from '../common/Button'
 const Header = () => {
   return (
     <>
-    <header>
+    <header className='fixed w-full top-0 left-0'>
         <Container>
-            <nav className='py-2 flex justify-between items-center'>
-                <div className="">
+            <nav className=''>
+                <div className="py-2 flex justify-between items-center">
+                    <div className="">
                     <Images imgSrc={logo}/>
                 </div>
                 <div className="">
-                    <ul className='flex gap-[45px]'>
-                        <li>
+                    <ul className='flex gap-11.25'>
+                        <li className='font-lato font-medium text-base text-secendary hover:text-primary duration-500'>
                             <Link to={"/"}>Home</Link>
                         </li>
-                        <li>
+                        <li  className='font-lato font-medium text-base text-secendary hover:text-primary duration-500'>
                             <Link to={"/"}>About</Link>
                         </li>
-                        <li>
+                        <li className='font-lato font-medium text-base text-secendary hover:text-primary duration-500'> 
                             <Link to={"/"}>Portfolio</Link>
                         </li>
-                        <li>
+                        <li className='font-lato font-medium text-base text-secendary hover:text-primary duration-500'>
                             <Link to={"/"}>Services</Link>
                         </li>
-                        <li>
+                        <li className='font-lato font-medium text-base text-secendary hover:text-primary duration-500'>
                             <Link to={"/"}>Blog</Link>
                         </li>
-                        <li>
+                        <li className='font-lato font-medium text-base text-secendary hover:text-primary duration-500'>
                             <Link to={"/"}>Testimonial</Link>
                         </li>
                     </ul>
@@ -39,8 +40,8 @@ const Header = () => {
                 <div className="">
                 <Button btnText={"Register"}/>
                 </div>
+                </div>
             </nav>
-
         </Container>
     </header>
     </>

@@ -38,7 +38,7 @@ const Header = () => {
                     </ul>
                 </div>
                 <div className="">
-                <Button btnText={"Register"}/>
+                <Button className={"border-2 border-primary hover:bg-transparent hover:text-secendary duration-500"} btnText={"Register"}/>
                 </div>
                 </div>
             </nav>

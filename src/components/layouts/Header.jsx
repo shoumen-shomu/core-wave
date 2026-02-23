@@ -8,7 +8,7 @@ import Button from '../common/Button'
 const Header = () => {
   return (
     <>
-    <header className='fixed w-full top-0 left-0'>
+    <header className='fixed w-full top-0 left-0 z-10'>
         <Container>
             <nav className=''>
                 <div className="py-2 flex justify-between items-center">

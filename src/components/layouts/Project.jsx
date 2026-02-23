@@ -1,5 +1,10 @@
 import React from "react";
 import Container from "../common/Container";
+import Images from "../common/Images";
+import pone from "../../assets/pone.png";
+import ptwo from "../../assets/ptwo.png";
+import pthree from "../../assets/pthree.png";
+import Button from "../common/Button";
 
 const Project = () => {
   return (
@@ -32,6 +37,35 @@ const Project = () => {
                 </p>
               </div>
               <div className="mt-5.25 w-223 h-0.75 bg-[#CECECE] mx-auto"></div>
+              <div className="flex gap-6 mt-[53px]">
+                <div className="text-center">
+                  <Images imgSrc={pone} />
+                  <h5 className="font-lato font-semibold text-[22px] text-secendary leading-[30px] pt-5 pb-[7px]">Portfolio Landing Page</h5>
+                  <p className="font-lato font-normal trxt-base text-[#7B7B7B] leading-[22px] w-[344px] mx-auto">
+                    Web development is the art of creating engaging and visually
+                    appealing websites{" "}
+                  </p>
+                </div>
+                <div className="text-center">
+                  <Images imgSrc={ptwo} />
+                  <h5 className="font-lato font-semibold text-[22px] text-secendary leading-[30px] pt-5 pb-[7px]">Plant Landing Page</h5>
+                  <p className="font-lato font-normal trxt-base text-[#7B7B7B] leading-[22px] w-[344px] mx-auto">
+                    Web development is the art of creating engaging and visually
+                    appealing websites{" "}
+                  </p>
+                </div>
+                <div className="text-center">
+                  <Images imgSrc={pthree} />
+                  <h5 className="font-lato font-semibold text-[22px] text-secendary leading-[30px] pt-5 pb-[7px]">Real Estate Landing Page</h5>
+                  <p className="font-lato font-normal trxt-base text-[#7B7B7B] leading-[22px] w-[344px] mx-auto">
+                    Web development is the art of creating engaging and visually
+                    appealing websites{" "}
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="flex items-center justify-center mt-[32px]">
+                <Button className={"border-2 border-primary hover:bg-transparent hover:text-secendary duration-500"} btnText={"View All Projects"}/>
             </div>
           </Container>
         </div>

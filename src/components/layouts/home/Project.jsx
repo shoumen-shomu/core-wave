@@ -1,10 +1,11 @@
 import React from "react";
-import Container from "../common/Container";
-import Images from "../common/Images";
-import pone from "../../assets/pone.png";
-import ptwo from "../../assets/ptwo.png";
-import pthree from "../../assets/pthree.png";
-import Button from "../common/Button";
+import pone from "../../../assets/pone.png";
+import ptwo from "../../../assets/ptwo.png";
+import pthree from "../../../assets/pthree.png";
+import Button from "../../common/Button";
+import Container from "../../common/Container";
+import Images from "../../common/Images";
+
 
 const Project = () => {
   return (

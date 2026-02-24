@@ -9,24 +9,29 @@ const Service = () => {
       <section>
         <div class="py-17.5 bg-[#EEFFF9] rounded-tl-[500px] rounded-br-[500px]">
           <Container>
-            <div className="flex items-center gap-[113px]">
+            <div className="flex items-center gap-28.25">
               <div className="flex gap-10">
                 <div className="space-y-10 mt-33.25">
-                                    <div className="pt-10.5 pb-15 pl-11.75 rounded-[10px] bg-white group duration-500 hover:bg-primary/50 shadow-[0px_0px_20px_2px_rgba(0,0,0,0.05)]">
-                   <TbDeviceDesktopCode size={90} className="text-primary group-hover:text-white duration-500" />
+                  <div className="pt-10.5 pb-15 pl-11.75 rounded-[10px] bg-white group duration-500 hover:bg-primary/50 shadow-[0px_0px_20px_2px_rgba(0,0,0,0.05)]">
+                    <TbDeviceDesktopCode
+                      size={90}
+                      className="text-primary group-hover:text-white duration-500"
+                    />
                     <h5 className="font-lato font-semibold text-[20px] text-secendary leading-7.5 py-3.5 group-hover:text-white duration-500">
-                     Web Development
+                      Web Development
                     </h5>
                     <p className="font-lato font-normal text-base text-[#7B7B7B] leading-6 w-66.25 group-hover:text-white duration-500">
                       Web development is the art of creating engaging and
                       visually appealing websites{" "}
                     </p>
                   </div>
-                  
                   <div className="pt-10.5 pb-15 pl-11.75 rounded-[10px] bg-white group duration-500 hover:bg-primary/50 shadow-[0px_0px_20px_2px_rgba(0,0,0,0.05)]">
-                   <TbDeviceDesktopCode size={90} className="text-primary group-hover:text-white duration-500" />
+                    <TbDeviceDesktopCode
+                      size={90}
+                      className="text-primary group-hover:text-white duration-500"
+                    />
                     <h5 className="font-lato font-semibold text-[20px] text-secendary leading-7.5 py-3.5 group-hover:text-white duration-500">
-                     SEO Marketing
+                      SEO Marketing
                     </h5>
                     <p className="font-lato font-normal text-base text-[#7B7B7B] leading-6 w-66.25 group-hover:text-white duration-500">
                       Web development is the art of creating engaging and
@@ -36,7 +41,10 @@ const Service = () => {
                 </div>
                 <div className="space-y-10">
                   <div className="pt-10.5 pb-15 pl-11.75 rounded-[10px] bg-white group duration-500 hover:bg-primary/50 shadow-[0px_0px_20px_2px_rgba(0,0,0,0.05)] ">
-                    <TbDeviceDesktopCode size={90} className="text-primary group-hover:text-white duration-500" />
+                    <TbDeviceDesktopCode
+                      size={90}
+                      className="text-primary group-hover:text-white duration-500"
+                    />
                     <h5 className="font-lato font-semibold text-[20px] text-secendary leading-7.5 py-3.5 group-hover:text-white duration-500">
                       UI/UX Analysis
                     </h5>
@@ -46,7 +54,10 @@ const Service = () => {
                     </p>
                   </div>
                   <div className="pt-10.5 pb-15 pl-11.75 rounded-[10px] bg-white group duration-500 hover:bg-primary/50 shadow-[0px_0px_20px_2px_rgba(0,0,0,0.05)]">
-                    <TbDeviceDesktopCode size={90} className="text-primary group-hover:text-white duration-500" />
+                    <TbDeviceDesktopCode
+                      size={90}
+                      className="text-primary group-hover:text-white duration-500"
+                    />
                     <h5 className="font-lato font-semibold text-[20px] text-secendary leading-7.5 py-3.5 group-hover:text-white duration-500">
                       Graphic Design
                     </h5>

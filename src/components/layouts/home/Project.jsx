@@ -71,7 +71,6 @@ const Project = () => {
           </Container>
         </div>
       </section>
-      hover:after:w-[150%]
     </>
   );
 };

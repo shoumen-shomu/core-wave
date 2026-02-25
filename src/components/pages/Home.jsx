@@ -5,6 +5,7 @@ import About from '../layouts/home/About'
 import Service from '../layouts/home/Service'
 import Project from '../layouts/home/Project'
 import CompanyOverview from '../layouts/home/CompanyOverview'
+import Testimonials from '../layouts/home/Testimonials'
 
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
     <Service/>
     <Project/>
     <CompanyOverview/>
+    <Testimonials/>
     </>
   )
 }

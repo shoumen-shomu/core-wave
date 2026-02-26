@@ -6,6 +6,7 @@ import Service from '../layouts/home/Service'
 import Project from '../layouts/home/Project'
 import CompanyOverview from '../layouts/home/CompanyOverview'
 import Testimonials from '../layouts/home/Testimonials'
+import Trail from '../layouts/Trail'
 
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
     <Project/>
     <CompanyOverview/>
     <Testimonials/>
+    <Trail/>
     </>
   )
 }

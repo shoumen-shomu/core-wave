@@ -8,7 +8,7 @@ const Trail = () => {
   return (
     <>
       <section>
-        <div className="py-[86px] bg-primary ">
+        <div className="py-21.5 bg-primary ">
           <Container>
             <div className="relative">
               <h3 className="font-lato font-semibold text-[45px] text-white leadiong-[54px] pb-9.5">

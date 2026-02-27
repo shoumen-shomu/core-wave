@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import pone from "../../../assets/pone.png";
 import ptwo from "../../../assets/ptwo.png";
 import pthree from "../../../assets/pthree.png";
@@ -37,7 +37,7 @@ const Project = () => {
                 </h2>
               </div>
               <div className="flex gap-x-18.25 justify-center mt-8.25">
-                <p  data-filter=".showAll" className="font-lato font-bold text-base text-[#7B7B7B] hover:text-primary duration-300 cursor-pointer relative after:content-[''] after:absolute after:w-0 after:h-0.5 after:bg-primary after:top-[45px] after:right-[40px] after:translate-[50%] after:transition-all after:duration-400 hover:after:w-full ">
+                <p  data-filter=".mobileApp" className="font-lato font-bold text-base text-[#7B7B7B] hover:text-primary duration-300 cursor-pointer relative after:content-[''] after:absolute after:w-0 after:h-0.5 after:bg-primary after:top-[45px] after:right-[40px] after:translate-[50%] after:transition-all after:duration-400 hover:after:w-full ">
                   Mobile App
                 </p>
                 <p  data-filter=".webDevelopment" className="font-lato font-bold text-base text-[#7B7B7B] hover:text-primary duration-300 cursor-pointer relative after:content-[''] after:absolute after:w-0 after:h-0.5 after:bg-primary after:top-[45px] after:right-[65px] after:translate-[50%] after:transition-all after:duration-400 hover:after:w-full ">
@@ -54,8 +54,8 @@ const Project = () => {
                 </p>
               </div>
               <div className="mt-5.25 w-223 h-0.75 bg-[#CECECE] mx-auto"></div>
-              <div className="flex gap-6 mt-13.25" ref={containerRef}>
-                <div className="text-center mix showAll webDevelopment">
+              <div className="flex gap-6 mt-13.25 justify-center" ref={containerRef}>
+                <div className="text-center mix mobileApp webDevelopment">
                   <Images imgSrc={pone} />
                   <h5 className="font-lato font-semibold text-[22px] text-secendary leading-[30px] pt-5 pb-[7px]">Portfolio Landing Page</h5>
                   <p className="font-lato font-normal trxt-base text-[#7B7B7B] leading-[22px] w-[344px] mx-auto">
@@ -63,7 +63,7 @@ const Project = () => {
                     appealing websites{" "}
                   </p>
                 </div>
-                <div className="text-center mix showAll uiuxDesign motionGraphic">
+                <div className="text-center uiuxDesign motionGraphic">
                   <Images imgSrc={ptwo} />
                   <h5 className="font-lato font-semibold text-[22px] text-secendary leading-[30px] pt-5 pb-[7px]">Plant Landing Page</h5>
                   <p className="font-lato font-normal trxt-base text-[#7B7B7B] leading-[22px] w-[344px] mx-auto">
@@ -71,7 +71,7 @@ const Project = () => {
                     appealing websites{" "}
                   </p>
                 </div>
-                <div className="text-center mix showAll graphicDesign">
+                <div className="text-center mix  graphicDesign">
                   <Images imgSrc={pthree} />
                   <h5 className="font-lato font-semibold text-[22px] text-secendary leading-[30px] pt-5 pb-[7px]">Real Estate Landing Page</h5>
                   <p className="font-lato font-normal trxt-base text-[#7B7B7B] leading-[22px] w-[344px] mx-auto">

@@ -21,6 +21,7 @@ const Testimonials = () => {
               What Our Clients Saying
             </h2>
             <div className="flex flex-row gap-6">
+              {/* Slider Part Start */}
               <Swiper
                 modules={[Pagination, Autoplay]}
                 spaceBetween={30}
@@ -39,6 +40,7 @@ const Testimonials = () => {
                   paddingBottom: "40px",
                 }}
               >
+              {/* Slider Part End */}
                 <SwiperSlide>
                   <div className="py-11.25 pl-12.25 pr-16 rounded-[10px] shadow-[0px_0px_20px_2px_rgba(0,0,0,0.05)] relative group">
                     <div className="w-10.75 h-10.75 rounded-[50%] bg-[#343434] flex justify-center items-center absolute top-[14%] left-[29%] group-hover:bg-primary duration-300">

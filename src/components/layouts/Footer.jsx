@@ -24,16 +24,16 @@ const Footer = () => {
               </p>
               <div className="flex gap-1.75 mt-[20px]">
                 <div className="w-7.25 h-7.25 bg-primary rounded-[50%] flex justify-center items-center cursor-pointer  border border-primary group hover:bg-transparent duration-300">
-                  <FaFacebookF size={15} className="text-white group-hover:text-primary" />
+                  <FaFacebookF size={15} className="text-white group-hover:text-primary duration-300" />
                 </div>
                 <div className="w-7.25 h-7.25 bg-primary rounded-[50%] flex justify-center items-center cursor-pointer  border border-primary group hover:bg-transparent duration-300">
-                  <FaTwitter size={15} className="text-white group-hover:text-primary" />
+                  <FaTwitter size={15} className="text-white group-hover:text-primary duration-300" />
                 </div>
                 <div className="w-7.25 h-7.25 bg-primary rounded-[50%] flex justify-center items-center cursor-pointer  border border-primary group hover:bg-transparent duration-300">
-                  <FaLinkedinIn size={15} className="text-white group-hover:text-primary" />
+                  <FaLinkedinIn size={15} className="text-white group-hover:text-primary duration-300" />
                 </div>
                 <div className="w-7.25 h-7.25 bg-primary rounded-[50%] flex justify-center items-center cursor-pointer  border border-primary group hover:bg-transparent duration-300">
-                  <FaInstagram size={15} className="text-white group-hover:text-primary" />
+                  <FaInstagram size={15} className="text-white group-hover:text-primary duration-300" />
                 </div>
               </div>
             </div>
@@ -85,7 +85,7 @@ const Footer = () => {
                   className="py-3.25 pl-3.75 w-84.25 rounded-[5px] border-2 border-[#DDDDDD] outline-0 placeholder:text-[#BDBDBD] font-lato font-normal text-sm leading-5.5 inline-block"
                 />
               </div>
-              <Button btnText={"Request & Callback"} />
+              <Button className={"border-2 border-primary hover:bg-transparent hover:text-secendary duration-500"} btnText={"Request & Callback"} />
             </div>
           </div>
         </Container>

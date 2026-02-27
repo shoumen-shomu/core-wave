@@ -2,7 +2,7 @@ import React from 'react'
 import Container from '../common/Container'
 import Images from '../common/Images'
 import logo from "../../assets/logo.png"
-import { Link } from 'react-router-dom'
+import { Link, Links } from 'react-router-dom'
 import Button from '../common/Button'
 
 const Header = () => {
@@ -13,7 +13,9 @@ const Header = () => {
             <nav className=''>
                 <div className="py-2 flex justify-between items-center">
                     <div className="">
-                    <Images imgSrc={logo}/>
+                    <Link to={"/"}>
+                        <Images imgSrc={logo} />
+                    </Link>
                 </div>
                 <div className="">
                     <ul className='flex gap-11.25'>

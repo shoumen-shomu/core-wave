@@ -25,7 +25,7 @@ const CompanyOverview = () => {
                   support, we've got you covered
                 </p>
                 <Button
-                  className={"bg-[#DAF6EB] text-primary"}
+                  className={"border-2 border-primary hover:bg-transparent hover:text-secendary duration-500"}
                   btnText={"Get In Touch Now"}
                 />
               </div>
